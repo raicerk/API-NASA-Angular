@@ -1,3 +1,4 @@
 export const environment = {
-  production: true
+  production: true,
+  url: 'https://api.nasa.gov/planetary/apod?api_key='
 };

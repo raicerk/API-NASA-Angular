@@ -1,0 +1,25 @@
+
+<div class="row">
+    <div class="col-2">
+    </div>
+    <div class="col-8">
+        <div class="card">
+            <img *ngIf="contenido" [src]=dataNasa.url class="card-img-top">
+            <div class="card-body">
+                <h5 class="card-title">{{dataNasa.title}}</h5>
+                <p class="card-text">{{dataNasa.explanation}}</p>
+                <br>
+                <div class="row">
+                    <div class="col">
+                        <footer class="blockquote-footer">{{dataNasa.copyright}}</footer>
+                    </div>
+                    <div class="col text-right">
+                        <p class="card-text"><small class="text-muted">{{dataNasa.date}}</small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-2">
+    </div>
+</div>
